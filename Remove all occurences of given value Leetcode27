@@ -1,0 +1,13 @@
+class Solution(object):
+    def removeElement(self, nums, val):
+        k=len(nums)
+        i=0
+        while i<k:
+            if nums[i]==val:
+                nums.remove(val)
+                k=k-1
+            else:
+                i=i+1
+        print(k,"nums=",nums)
+Time Complexity is O(n)
+https://leetcode.com/problems/remove-element/submissions/880458180/
