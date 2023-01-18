@@ -10,4 +10,5 @@ class Solution(object):
                 else:
                     pass
         return ans
+        Time Complexity is O(n^2)
         https://leetcode.com/problems/two-sum/submissions/880418506/
